@@ -1,5 +1,5 @@
 const getRequest = async () =>{
-    const response = await fetch('http://api.openweathermap.org/data/2.5/weather?q=LVIV&units=metric&APPID=5d066958a60d315387d9492393935c19')
+    const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=LVIV&units=metric&APPID=5d066958a60d315387d9492393935c19')
     const createElements = await response.json();
     return createElements;
 
