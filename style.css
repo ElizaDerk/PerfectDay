@@ -184,6 +184,11 @@ li.done .fa-trash-alt {
 .options-content span:hover {
     color: rgb(235, 127, 26);
 }
+
+.options-content span:active {
+    color: rgb(235, 127, 26);
+}
+
 .fa-trash-alt {
     color: rgb(170, 80, 64);
     transition: 0.5s;
