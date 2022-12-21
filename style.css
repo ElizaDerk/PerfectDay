@@ -185,7 +185,7 @@ li.done .fa-trash-alt {
     color: rgb(235, 127, 26);
 }
 
-.options-content span:focus-visible {
+.options-content span:active {
     color: rgb(235, 127, 26);
 }
 
